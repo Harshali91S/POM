@@ -14,13 +14,13 @@ public class BrowserStackSigninPage {
 				this.driver = driver;
 			}
 	// Methods		
-			public void enterUserEmail(String useremail) {
-				driver.findElement(UserEmail).sendKeys(useremail);
-			}
-			public void enterUserPassword(String userpassword) {
-				driver.findElement(UserPassword).sendKeys(userpassword);
-			}
-			public void ClickonLogin() {
-				driver.findElement(LoginBtn).click();
-			}		
+			//public void enterUserEmail(String useremail) {
+			//	driver.findElement(UserEmail).sendKeys(useremail);
+			//}
+			//public void enterUserPassword(String userpassword) {
+			//	driver.findElement(UserPassword).sendKeys(userpassword);
+			//}
+			//public void ClickonLogin() {
+			//	driver.findElement(LoginBtn).click();
+			//}		
 }

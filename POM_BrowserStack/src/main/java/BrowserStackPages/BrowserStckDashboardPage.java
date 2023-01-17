@@ -16,14 +16,14 @@ public class BrowserStckDashboardPage {
 		this.driver = driver;
 	}
 // Methods
-	public void UserProfileClick() {
-		driver.findElement(UserProfileBtn).click();
-	}
-	public void ClickonSummary() {
-		driver.findElement(Summary).click();
-	}
-	public String verifyUserName() {
-		String getUserText = driver.findElement(UserFullName).getText();
-		return getUserText;
-	}
+	//public void UserProfileClick() {
+	//	driver.findElement(UserProfileBtn).click();
+	//}
+	//public void ClickonSummary() {
+	//	driver.findElement(Summary).click();
+	//}
+	//public String verifyUserName() {
+		//String getUserText = driver.findElement(UserFullName).getText();
+		//return getUserText;
+//	}
 }
